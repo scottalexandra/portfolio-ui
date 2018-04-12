@@ -1,1 +1,14 @@
 @import 'colors';
+
+.home-page-main-container {
+  background: url('../src/assets/images/alex-lean.jpg');
+  width: 100%;
+  height: 100vh;
+}
+
+.home-page-arrow-container {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  bottom: 12px;
+}

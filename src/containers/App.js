@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { Route, withRouter } from 'react-router';
 
 import { addItem } from '../store/items/actions';
-import ListPage from '../components/ListPage';
 import Home from '../components/Home';
 import '../assets/stylesheets/App.scss';
 
@@ -16,9 +15,8 @@ export class App extends Component {
   render() {
     return (
       <div className="app">
-
         <Route exact path="/" component={Home} />
-        <Route
+        {/* <Route
           path="/list"
           component={() => {
             return (
@@ -28,7 +26,7 @@ export class App extends Component {
               />
             );
           }}
-        />
+        /> */}
       </div>
     );
   }
