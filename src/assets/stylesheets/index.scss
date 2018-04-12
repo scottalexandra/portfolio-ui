@@ -1,2 +1,7 @@
 @import '~react-md/src/scss/react-md';
 @include react-md-everything;
+
+* {
+  margin: 0;
+  padding: 0;
+}

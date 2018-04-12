@@ -1,3 +1,15 @@
+@import 'colors';
+
 .header {
   text-align: center;
+  height: 76px;
+  background-color: $beige;
+
+  .header-button {
+    color: $mint-green;
+    font-family: 'Sacramento', 'cursive';
+    font-size: 36px;
+    margin: 0 auto;
+    transform: translateY(25%);
+  }
 }

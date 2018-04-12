@@ -5,7 +5,11 @@ import '../assets/stylesheets/Header.scss';
 
 const Header = () => {
   return (
-    <header className="header"><Button flat primary>Menu</Button></header>
+    <header className="header">
+      <button className="header-button">
+        Menu
+      </button>
+    </header>
   )
 };
 
