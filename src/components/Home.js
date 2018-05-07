@@ -11,7 +11,6 @@ class Home extends Component {
     return (
       <main className="home-page-main-container">
         <Header />
-        <img className="home-page-image" src={AlexLean}></img>
         <article className="home-page-arrow-container">
           <Button
             className="home-page-arrow-button"
@@ -21,10 +20,10 @@ class Home extends Component {
           </Button>
         </article>
         <article className="home-page-profile">
-          <h2>Alexandra Robinson</h2>
-          <p>
+          <h2 className="home-page-profile-name">Alexandra Robinson</h2>
+          <p className="home-page-profile-text">
             Technology leader with a flair for uncovering simple solutions to complex
-            problems. Results driven, people oriented, and passionate about building
+            problems. <em>Results</em> driven, <em>people</em> oriented, and <em>passionate</em> about building
             excellent software.
           </p>
         </article>
