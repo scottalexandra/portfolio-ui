@@ -1,24 +1,17 @@
+@import 'colors';
+
 .header {
+  background-color: $beige;
+  height: 76px;
+  position: fixed;
   text-align: center;
-}
+  width: 100%;
 
-.header__body {
-  background-color: #222;
-  padding: 20px;
-  color: white;
+  .header-button {
+    color: $mint-green;
+    font-family: 'Sacramento', 'cursive';
+    font-size: 36px;
+    margin: 0 auto;
+    transform: translateY(25%);
+  }
 }
-
-.header__logo {
-  animation: logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.header__title {
-  color: white;
-}
-
-@keyframes logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
