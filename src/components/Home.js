@@ -6,7 +6,6 @@ import AlexLean from '../assets/images/alex-lean.svg';
 import '../assets/stylesheets/Home.scss';
 
 class Home extends Component {
-
   render() {
     return (
       <main className="home-page-main-container">

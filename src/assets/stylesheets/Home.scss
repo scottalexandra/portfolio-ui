@@ -6,22 +6,30 @@
 
 .home-page-arrow-container {
   background: url('~assets/images/alex-lean.svg') no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position-x: 25%;
-  height: 90vh;
+  height: 100vh;
   text-align: center;
   width: 100%;
 
   .home-page-arrow-button {
     color: $turquiose;
+    display: inline-block;
+    background-attachment: fixed;
     padding: 0;
     position: relative;
-    top: 85vh;
+    top: 94vh;
 
     .md-icon {
       font-size: 48px;
     }
   }
+
+}
+
+.home-page-profile {
+  position: relative;
 }
 
 .home-page-profile-name {

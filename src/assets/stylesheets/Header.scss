@@ -1,9 +1,11 @@
 @import 'colors';
 
 .header {
-  text-align: center;
-  height: 76px;
   background-color: $beige;
+  height: 76px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
 
   .header-button {
     color: $mint-green;
